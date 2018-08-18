@@ -1,0 +1,44 @@
+version: '2.3'
+
+services:
+  firefox:
+    image: selenium/node-firefox:3.12.0-cobalt
+    volumes:
+      - /dev/shm:/dev/shm
+    shm_size: 2Gb
+    depends_on:
+      - selenium-hub
+    environment:
+      HUB_HOST: selenium-hub
+
+  chrome:
+    image: selenium/node-chrome:3.12.0-cobalt
+    volumes:
+      - /dev/shm:/dev/shm
+    shm_size: 2Gb
+    depends_on:
+      - selenium-hub
+    environment:
+      HUB_HOST: selenium-hub
+
+  selenium-hub:
+    image: selenium/hub:3.12.0-cobalt
+    expose:
+     - 4444
+
+  tests:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /tmp/autotests/reports:/usr/src/app/reports
+    depends_on:
+      - selenium-hub
+      - chrome
+    environment:
+      SELENIUM_HUB_HOST: selenium-hub
+      SELENIUM_HUB_PORT: 4444
+      CONCURRENCY: $CONCURRENCY
+      URL: $URL
+      USER_EMAIL: $USER_EMAIL
+      USER_PASSWORD: $USER_PASSWORD

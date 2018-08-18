@@ -1,0 +1,10 @@
+{
+	"opts": {
+		"template": "node_modules/minami"
+  },
+  "templates": {
+    "default": {
+      "includeDate": false
+    }
+  }
+}

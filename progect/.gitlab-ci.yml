@@ -1,0 +1,78 @@
+stages:
+  # - lint
+  - tests
+
+# Пока не будем включать линты, сложна и надо подумать
+# lint:
+#   stage: lint
+#   tags:
+#    - functional-tests
+#   cache:
+#     untracked: true
+#     key: "$CI_PROJECT_ID"
+#     paths:
+#       - node_modules/
+#   before_script:
+#    - if [[ `cat node_modules/package.json.hash 2>/dev/null || true` != `md5sum package.json` ]]; then
+#        echo "Old hash " `cat node_modules/package.json.hash 2>/dev/null || true`;
+#        echo "New hash " `md5sum package.json`;
+#        JOBS=8 npm i --unsafe-perm --quiet --progress=false &&
+#        md5sum package.json > ./node_modules/package.json.hash;
+#      fi;
+#   script:
+#    - npm run lint
+
+.run tests on host: &run_tests_on_host_template
+  stage: tests
+  when: manual
+  image: docker:18.03.1-ce-git
+  tags:
+    - tests
+  artifacts:
+    paths:
+      - reports/mochawesome*.html
+      - reports/fail-screenshots
+    expire_in: 4 week
+    name: "functional-tests-report-${CI_BUILD_REF_NAME}_${CI_BUILD_REF}"
+    when: always
+  # Да, ставить так docker-compose - это временный костыль, скоро вынесу в image
+  before_script:
+    - apk add --no-cache --virtual .build-deps curl python
+    - curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py && python /tmp/get-pip.py
+    - pip install docker-compose
+    - docker-compose -p functional-tests pull --ignore-pull-failures --include-deps
+    - docker-compose -p functional-tests build
+  # Какой-то адовый костыль ночью написал, выпилить надо
+  # Смысл манипуляций с EXIT_CODE в том, что бы когда npm run test упадёт,
+  # мы сгенерировали репорт, а потом уже зафэйлились все тесты
+  script:
+    - EXIT_CODE=0;
+      docker-compose -p functional-tests run --rm tests npm run cleanup;
+      docker-compose -p functional-tests run --rm tests npm run test || EXIT_CODE=1;
+      docker-compose -p functional-tests run --rm tests npm run report:generate;
+      mkdir reports && cp -r /tmp/autotests/reports/* ./reports/.;
+      exit $EXIT_CODE;
+
+run tests on ulight19:
+  <<: *run_tests_on_host_template
+  variables:
+    CONCURRENCY: 10
+    URL: https://ulight19.uid.me
+    USER_EMAIL: autotest@ukit.com
+    USER_PASSWORD: autotest
+
+run tests on ulight32:
+  <<: *run_tests_on_host_template
+  variables:
+    CONCURRENCY: 10
+    URL: https://ulight32.uid.me
+    USER_EMAIL: autotest@ukit.com
+    USER_PASSWORD: autotest
+
+run tests on ulight49:
+  <<: *run_tests_on_host_template
+  variables:
+    CONCURRENCY: 10
+    URL: https://ulight49.uid.me
+    USER_EMAIL: autotest@ukit.com
+    USER_PASSWORD: autotest
