@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": ".grid_12:nth-child(2)"
+}

@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": ".avn001_display.avn001_display__view-tiles.avn001_display__enable-hover > div:nth-child(1) > div > div > div:nth-child(3)"
+}

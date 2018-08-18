@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": ".grid_12:nth-child(1) > div > div > div > div:nth-child(1) > a > div > div > div > img"
+}

@@ -1,0 +1,10 @@
+{
+    "message": "ESOCKETTIMEDOUT",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "status": -1,
+        "type": "ESOCKETTIMEDOUT",
+        "orgStatusMessage": "ESOCKETTIMEDOUT",
+        "message": "Couldn't connect to selenium server"
+    }
+}

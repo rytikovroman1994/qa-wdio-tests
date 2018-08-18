@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1534523595565' stop='1534523602470'>
+    <name>checking-cards</name>
+    <title>checking-cards</title>
+    <test-cases>
+        <test-case start='1534523595600' status='passed' stop='1534523602332'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1534523595604' status='passed' stop='1534523596779'>
+                    <name>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/window/current/maximize</name>
+                    <title>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='e86f260e-6bb4-440b-9f91-b2da06a062cd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523596781' status='passed' stop='1534523601792'>
+                    <name>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/url</name>
+                    <title>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/url</title>
+                    <attachments>
+                        <attachment title='Request' source='af53da91-a8b4-4275-b236-26f89d82e485-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='1a11a935-6319-4999-b23f-f6dd71627ab4-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523601807' status='passed' stop='1534523601871'>
+                    <name>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/elements</name>
+                    <title>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4f88902f-85bd-4d81-99d5-03c9657e097b-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='a855fb9e-6e11-4277-b80d-21a17ec16287-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523601871' status='passed' stop='1534523602027'>
+                    <name>GET /wd/hub/session/2755412932fd11c6d3f20433ade56181/element/0.40442653440051624-1/displayed</name>
+                    <title>GET /wd/hub/session/2755412932fd11c6d3f20433ade56181/element/0.40442653440051624-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='8d671f71-b3f3-41e1-a53f-e28267a1ec09-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523602037' status='passed' stop='1534523602107'>
+                    <name>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/element</name>
+                    <title>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d90eb5b2-78f6-4f6c-9e57-368d77a0cfcd-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='8373b526-b4de-453f-8d84-dee3abd09907-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523602107' status='passed' stop='1534523602329'>
+                    <name>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/element/0.40442653440051624-2/click</name>
+                    <title>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/element/0.40442653440051624-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='4e9946f5-6a22-4b4b-a619-6065b9effc00-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1534523602334' status='broken' stop='1534523602469'>
+            <name>consider the number of cards</name>
+            <title>consider the number of cards</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","platform":"","version":"","maxInstances":"1"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\webdriverIO-with-mochaBDD-master\\test\\specs\\checking-cards.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1534523602336' status='passed' stop='1534523602404'>
+                    <name>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/elements</name>
+                    <title>POST /wd/hub/session/2755412932fd11c6d3f20433ade56181/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='0e8cdeb0-a9de-4323-9103-e9e2c0fc0861-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='734c68c8-de6e-46cd-a039-bc14e8af27da-attachment.json' type='application/json' size='2294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>position is not defined</message>
+                <stack-trace>ReferenceError: position is not defined
+                    at Context.&lt;anonymous> (C:/webdriverIO-with-mochaBDD-master/test/specs/checking-cards.js:21:25)
+                    at C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:590:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (C:\webdriverIO-with-mochaBDD-master\node_modules\core-js\library\modules\_export.js:36:28)
+                    at Context.executeSync (C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:588:12)
+                    at C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:759:42</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

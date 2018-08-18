@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="before_all_hook0" timestamp="2018-08-17T17:24:47" time="33.362" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="d48aa2d901ecc35c7af300aa7ce80b1c"/>
+      <property name="suiteName" value="&quot;before all&quot; hook0"/>
+      <property name="capabilities" value="firefox"/>
+    </properties>
+  </testsuite>
+  <testsuite name="signup2" timestamp="2018-08-17T17:24:47" time="32.054" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="d48aa2d901ecc35c7af300aa7ce80b1c"/>
+      <property name="suiteName" value="signUp2"/>
+      <property name="capabilities" value="firefox"/>
+    </properties>
+    <testcase classname="firefox.signUp2" name="sign up4" time="8.477">
+      <error message="&#xA;expected 'https://vw.kodix.ru/auth/realms/vwgr/login-actions/registration?execution=ac595e50-1a71-469f-bca2-dd021ac1ff1e&amp;client_id=vw-offers&amp;tab_id=9kr_BA3awSQ' to equal 'https://vw.kodix.ru/'&#xA;"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element - {"using":"id","value":"prompt-toggler_selectLK"}
+RESULT: {"state":"success","sessionId":null,"hCode":669660001,"value":{"element-6066-11e4-a52e-4f735466cecf":"1fe0f251-ea86-40c3-bec8-ebd8b2712da1"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/1fe0f251-ea86-40c3-bec8-ebd8b2712da1/click - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element - {"using":"css selector","value":".avn004_prompt__content  a:nth-child(2)"}
+RESULT: {"state":"success","sessionId":null,"hCode":1590205434,"value":{"element-6066-11e4-a52e-4f735466cecf":"5c0c908a-f34a-4581-b601-a9d8b3a34571"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/5c0c908a-f34a-4581-b601-a9d8b3a34571/click - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/elements - {"using":"css selector","value":".logo__img_desktop"}
+RESULT: {"state":"success","sessionId":null,"hCode":-1041767752,"value":[{"element-6066-11e4-a52e-4f735466cecf":"d106f22c-e57e-45c7-bbe3-c548555ce89b"},{"element-6066-11e4-a52e-4f735466cecf":"4e9afb9f-8c50-4595-af76-3545bb61fa53"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/d106f22c-e57e-45c7-bbe3-c548555ce89b/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/4e9afb9f-8c50-4595-af76-3545bb61fa53/displayed - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1829573547,"value":true,"class":"org.openqa.selenium.remote.Response","status":0}
+RESULT: {"state":"success","sessionId":null,"hCode":-1829573547,"value":true,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/elements - {"using":"id","value":"username"}
+RESULT: {"state":"success","sessionId":null,"hCode":-308277952,"value":[{"element-6066-11e4-a52e-4f735466cecf":"8e2f00ae-2dbb-4b0d-8152-6931f4ccab9c"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/8e2f00ae-2dbb-4b0d-8152-6931f4ccab9c/clear - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/8e2f00ae-2dbb-4b0d-8152-6931f4ccab9c/value - {"value":["0"],"text":"0"}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/elements - {"using":"id","value":"email"}
+RESULT: {"state":"success","sessionId":null,"hCode":-246739846,"value":[{"element-6066-11e4-a52e-4f735466cecf":"c4215dbc-4568-453e-8deb-702a37defb18"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/c4215dbc-4568-453e-8deb-702a37defb18/clear - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/c4215dbc-4568-453e-8deb-702a37defb18/value - {"value":["1","_","Z","e","m","l","a","k","@","y","(8 more items)"],"text":"1_Zemlak@yahoo.com"}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element - {"using":"css selector","value":".form__radio span"}
+RESULT: {"state":"success","sessionId":null,"hCode":192416872,"value":{"element-6066-11e4-a52e-4f735466cecf":"3f8b8bf0-2a0b-4b09-a323-37b3d8fb8d72"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/3f8b8bf0-2a0b-4b09-a323-37b3d8fb8d72/click - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/elements - {"using":"id","value":"lastName"}
+RESULT: {"state":"success","sessionId":null,"hCode":1698762100,"value":[{"element-6066-11e4-a52e-4f735466cecf":"8c0d7b4c-c768-4e20-8a26-112a4a5cc03d"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/8c0d7b4c-c768-4e20-8a26-112a4a5cc03d/clear - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/8c0d7b4c-c768-4e20-8a26-112a4a5cc03d/value - {"value":["L","a","n","g","o","s","h"],"text":"Langosh"}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/elements - {"using":"id","value":"firstName"}
+RESULT: {"state":"success","sessionId":null,"hCode":-624834300,"value":[{"element-6066-11e4-a52e-4f735466cecf":"80ffcb74-b3f8-4d73-a9f9-b9fb61af13a7"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/80ffcb74-b3f8-4d73-a9f9-b9fb61af13a7/clear - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/80ffcb74-b3f8-4d73-a9f9-b9fb61af13a7/value - {"value":["A","n","i","b","a","l"],"text":"Anibal"}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/elements - {"using":"css selector","value":"#kc-register-form > div:nth-child(6) > input"}
+RESULT: {"state":"success","sessionId":null,"hCode":369859473,"value":[{"element-6066-11e4-a52e-4f735466cecf":"3490d497-31c2-48ee-b38a-319c4bfd794c"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/3490d497-31c2-48ee-b38a-319c4bfd794c/clear - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/3490d497-31c2-48ee-b38a-319c4bfd794c/value - {"value":["R","u","s","s","e","l"],"text":"Russel"}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/elements - {"using":"id","value":"password"}
+RESULT: {"state":"success","sessionId":null,"hCode":1812536542,"value":[{"element-6066-11e4-a52e-4f735466cecf":"b9c623d1-ead2-448b-961e-9bdc37af0d4c"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/b9c623d1-ead2-448b-961e-9bdc37af0d4c/clear - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/b9c623d1-ead2-448b-961e-9bdc37af0d4c/value - {"value":["2","T","E","g","6","I","5","J","h","t"],"text":"2TEg6I5Jht"}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/elements - {"using":"id","value":"password-confirm"}
+RESULT: {"state":"success","sessionId":null,"hCode":-847477100,"value":[{"element-6066-11e4-a52e-4f735466cecf":"2797585f-1c09-4a19-81c9-6c34dfdf9552"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/2797585f-1c09-4a19-81c9-6c34dfdf9552/clear - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/2797585f-1c09-4a19-81c9-6c34dfdf9552/value - {"value":["2","T","E","g","6","I","5","J","h","t"],"text":"2TEg6I5Jht"}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element - {"using":"css selector","value":".btn_cta[type=\"submit\"]"}
+RESULT: {"state":"success","sessionId":null,"hCode":-1546138222,"value":{"element-6066-11e4-a52e-4f735466cecf":"da911fbb-66a2-449c-8dc0-b5896b7dd429"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/element/da911fbb-66a2-449c-8dc0-b5896b7dd429/click - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba/url - {}
+RESULT: {"state":"success","sessionId":null,"hCode":1370027993,"value":"https://vw.kodix.ru/auth/realms/vwgr/login-actions/registration?execution=ac595e50-1a71-469f-bca2-dd021ac1ff1e&client_id=vw-offers&tab_id=9kr_BA3awSQ","class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/9c7ba4e1-dd35-45b0-b87f-26cc8ef993ba - {}
+RESULT: {"state":"success","sessionId":null,"hCode":-1866246268,"value":{},"class":"org.openqa.selenium.remote.Response","status":0}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+AssertionError: expected 'https://vw.kodix.ru/auth/realms/vwgr/login-actions/registration?execution=ac595e50-1a71-469f-bca2-dd021ac1ff1e&client_id=vw-offers&tab_id=9kr_BA3awSQ' to equal 'https://vw.kodix.ru/'
+    at Context.<anonymous> (C:/webdriverIO-with-mochaBDD-master/test/specs/test.js:31:24)
+    at C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:590:26
+    at new Promise (<anonymous>)
+    at new F (C:\webdriverIO-with-mochaBDD-master\node_modules\core-js\library\modules\_export.js:36:28)
+    at Context.executeSync (C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:588:12)
+    at C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:759:42
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

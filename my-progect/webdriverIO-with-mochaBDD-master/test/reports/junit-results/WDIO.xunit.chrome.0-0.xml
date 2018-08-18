@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="before_all_hook0" timestamp="2018-08-18T18:36:54" time="35.379" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="15f7745b73b4e0cb23a160b67c7b1d11"/>
+      <property name="suiteName" value="&quot;before all&quot; hook0"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="checking_cards2" timestamp="2018-08-18T18:36:54" time="14.997" tests="2" failures="0" errors="2" skipped="0">
+    <properties>
+      <property name="specId" value="15f7745b73b4e0cb23a160b67c7b1d11"/>
+      <property name="suiteName" value="checking-cards2"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.checking-cards2" name="consider the number of cards4" time="8.723">
+      <error message="&#xA;An element could not be located on the page using the given search parameters.&#xA;"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-3"},{"ELEMENT":"0.9560571306733179-4"},{"ELEMENT":"0.9560571306733179-5"},{"ELEMENT":"0.9560571306733179-6"},{"ELEMENT":"0.9560571306733179-7"},{"ELEMENT":"0.9560571306733179-8"},{"ELEMENT":"0.9560571306733179-9"},{"ELEMENT":"0.9560571306733179-10"},{"ELEMENT":"0.9560571306733179-11"},{"ELEMENT":"0.9560571306733179-12"},"(22 more items)"]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(1)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-3"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-3","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(1)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-3"},{"ELEMENT":"0.9560571306733179-7"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(1) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-35"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-35/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(2)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-4"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-4","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(2)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-4"},{"ELEMENT":"0.9560571306733179-8"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(2) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-36"},{"ELEMENT":"0.9560571306733179-37"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-36/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-37/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(3)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-5"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-5","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(3)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-5"},{"ELEMENT":"0.9560571306733179-9"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(3) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-38"},{"ELEMENT":"0.9560571306733179-39"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-38/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-39/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(4)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-6"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-6","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(4)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-6"},{"ELEMENT":"0.9560571306733179-10"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(4) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-40"},{"ELEMENT":"0.9560571306733179-41"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-40/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-41/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(5)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-11"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-11","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(5)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-11"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(5) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-42"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-42/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":false}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(5) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-42"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-42/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(6)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-12"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-12","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(6)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-12"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(6) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-43"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-43/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(7)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-13"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-13","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(7)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-13"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(7) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-44"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-44/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(8)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-14"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-14","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(8)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-14"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(8) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-45"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-45/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(9)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-15"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-15","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(9)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-15"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(9) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-46"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-46/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(10)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-16"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-16","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(10)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-16"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(10) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-47"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-47/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(11)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-17"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-17","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(11)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-17"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(11) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-48"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-48/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(12)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-18"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-18","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(12)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-18"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(12) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-49"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-49/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(13)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-19"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-19","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(13)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-19"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(13) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-50"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-50/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(14)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-20"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-20","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(14)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-20"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(14) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-51"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-51/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(15)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-21"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-21","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(15)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-21"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(15) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-52"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-52/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(16)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-22"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-22","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(16)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-22"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(16) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-53"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-53/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(17)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-23"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-23","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(17)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-23"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(17) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-54"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-54/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(18)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-24"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-24","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(18)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-24"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(18) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-55"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-55/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(19)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-25"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-25","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(19)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-25"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(19) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-56"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-56/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(20)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-26"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-26","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(20)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-26"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(20) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-57"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-57/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(21)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-27"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-27","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(21)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-27"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(21) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-58"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-58/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(22)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-28"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-28","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(22)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-28"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(22) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-59"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-59/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(23)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-29"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-29","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(23)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-29"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(23) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-60"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-60/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(24)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-30"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-30","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(24)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-30"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(24) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-61"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-61/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(25)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-31"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-31","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(25)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-31"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(25) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-62"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-62/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(26)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-32"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-32","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(26)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-32"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(26) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-63"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-63/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(27)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-33"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-33","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(27)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-33"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(27) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-64"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-64/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(28)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-34"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/moveto - {"element":"0.9560571306733179-34","xoffset":0,"yoffset":200}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(28)"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-34"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/elements - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(28) > div > div > div > div:nth-child(1) > a > div > div > div > img"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":[{"ELEMENT":"0.9560571306733179-65"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-65/displayed - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":true}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".gridcontainer .grid_l_3:nth-child(29)"}
+RESULT: {"message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".gridcontainer .grid_l_3:nth-child(29)\"}","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".gridcontainer .grid_l_3:nth-child(29)\"}\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/screenshot - {}
+RESULT: null
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: An element could not be located on the page using the given search parameters.
+    at moveToObject(".gridcontainer .grid_l_3:nth-child(29)", 0, 200) -     at C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\at element(".gridcontainer .grid_l_3:nth-child(29)") - C:\webdriverIO-with-mochaBDD-master\node_modules\webdriverio\build\lib\commands\moveToObject.js:47:17
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.checking-cards2" name="consider the number of cards list7" time="0.554">
+      <error message="&#xA;unknown error: Element &lt;span class=&quot;toggle_switch__state&quot;>&lt;/span> is not clickable at point (1244, 14). Other element would receive the click: &lt;div class=&quot;avn003_action-list&quot;>...&lt;/div>&#xA;"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element - {"using":"css selector","value":".toggle_switch__state"}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":{"ELEMENT":"0.9560571306733179-66"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/element/0.9560571306733179-66/click - {}
+RESULT: {"message":"unknown error: Element <span class=\"toggle_switch__state\"></span> is not clickable at point (1244, 14). Other element would receive the click: <div class=\"avn003_action-list\">...</div>","type":"RuntimeError","seleniumStack":{"type":"UnknownError","message":"An unknown server-side error occurred while processing the command.","orgStatusMessage":"unknown error: Element <span class=\"toggle_switch__state\"></span> is not clickable at point (1244, 14). Other element would receive the click: <div class=\"avn003_action-list\">...</div>\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685/screenshot - {}
+RESULT: null
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/84f3a1c73541a408cdf6d37d1b394685 - {}
+RESULT: {"sessionId":"84f3a1c73541a408cdf6d37d1b394685","status":0,"value":null}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: An unknown server-side error occurred while processing the command.
+    at elementIdClick("0.9560571306733179-66") - C:\webdriverIO-with-mochaBDD-master\node_modules\webdriverio\build\lib\commands\click.js:20:22
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

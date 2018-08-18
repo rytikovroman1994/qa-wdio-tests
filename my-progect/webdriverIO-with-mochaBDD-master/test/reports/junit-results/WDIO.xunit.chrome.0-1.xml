@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="before_all_hook0" timestamp="2018-08-18T18:37:14" time="15.279" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="8249fffdde6033d97d59c47f27f3ddd9"/>
+      <property name="suiteName" value="&quot;before all&quot; hook0"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="signup2" timestamp="2018-08-18T18:37:14" time="15.009" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="8249fffdde6033d97d59c47f27f3ddd9"/>
+      <property name="suiteName" value="signUp2"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.signUp2" name="&quot;before all&quot; hook4" time="0.27">
+      <error message="&#xA;element (&quot;.avn008_overlay&quot;) still not visible after 10000ms&#xA;"/>
+      <system-err>
+        <![CDATA[
+Error: element (".avn008_overlay") still not visible after 10000ms
+    at elements(".avn008_overlay") - C:\webdriverIO-with-mochaBDD-master\node_modules\webdriverio\build\lib\commands\isVisible.js:54:17
+    at isVisible(".avn008_overlay") - C:\webdriverIO-with-mochaBDD-master\node_modules\webdriverio\build\lib\commands\waitForVisible.js:73:22
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1534522556129' stop='1534522597421'>
+    <name>checking-cards</name>
+    <title>checking-cards</title>
+    <test-cases>
+        <test-case start='1534522556161' status='broken' stop='1534522597420'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1534522556167' status='passed' stop='1534522557322'>
+                    <name>POST /wd/hub/session/ae63ab6ed6e5da4fb5a0a6c4e83d28b4/window/current/maximize</name>
+                    <title>POST /wd/hub/session/ae63ab6ed6e5da4fb5a0a6c4e83d28b4/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='2b5d9887-187c-44da-8cd4-232d7331c6bd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534522557327' status='passed' stop='1534522577348'>
+                    <name>POST /wd/hub/session/ae63ab6ed6e5da4fb5a0a6c4e83d28b4/url</name>
+                    <title>POST /wd/hub/session/ae63ab6ed6e5da4fb5a0a6c4e83d28b4/url</title>
+                    <attachments>
+                        <attachment title='Request' source='640c46fb-c0c1-4d62-ae5c-1861d9eb36a8-attachment.json' type='application/json' size='37'/>
+                        <attachment title='Response' source='bd45db3a-3624-4713-a1cf-21af392ad836-attachment.json' type='application/json' size='255'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534522577362' status='passed' stop='1534522597401'>
+                    <name>GET /wd/hub/session/ae63ab6ed6e5da4fb5a0a6c4e83d28b4/screenshot</name>
+                    <title>GET /wd/hub/session/ae63ab6ed6e5da4fb5a0a6c4e83d28b4/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='8e6afb7c-e7e0-43b9-9da0-eb7e8ff7b450-attachment.json' type='application/json' size='255'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>ESOCKETTIMEDOUT</message>
+                <stack-trace>Error: Couldn't connect to selenium server
+                    at url("https://vw.kodix.ru") -     at C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:312:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

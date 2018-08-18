@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "#kc-register-form > div:nth-child(6) > input"
+}

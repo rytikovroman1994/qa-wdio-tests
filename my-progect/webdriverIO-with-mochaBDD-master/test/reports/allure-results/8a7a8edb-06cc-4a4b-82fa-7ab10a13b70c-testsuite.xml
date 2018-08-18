@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1534523019209' stop='1534523025851'>
+    <name>checking-cards</name>
+    <title>checking-cards</title>
+    <test-cases>
+        <test-case start='1534523019247' status='passed' stop='1534523025630'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1534523019252' status='passed' stop='1534523020407'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/window/current/maximize</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='c5268ead-35fb-4269-8d1a-dc409e8d733d-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523020413' status='passed' stop='1534523022710'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/url</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/url</title>
+                    <attachments>
+                        <attachment title='Request' source='912d815b-34d4-49d8-a462-63107da511f4-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='5aeb2660-5abc-400a-af7d-916ecae73e16-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523022724' status='passed' stop='1534523022815'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='bf74cc2b-342f-4679-bdc3-e12bcaadc5a0-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='a5aa4ecd-5981-460f-a78f-57225dcfa27c-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523023218' status='passed' stop='1534523023287'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ab664f74-ea51-4bfc-b31a-596eb95cdfb5-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='beaa280b-05fe-43ab-9187-d33b84a943a3-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523023721' status='passed' stop='1534523023933'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6d8a4307-ac28-41cb-959d-0c9e93f36b75-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='72131006-a7d8-49e9-8047-b5f4f2499afc-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523024218' status='passed' stop='1534523024293'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6a72c454-a62c-4782-9dde-e751eded3b01-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='48be4982-2c82-47e8-a048-32dddec9bade-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523024722' status='passed' stop='1534523024831'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='50cf0749-09cb-4f3d-bc33-0c3705ad92c5-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='cae803b5-406e-4fca-b5f3-42ad937a9e46-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523024831' status='passed' stop='1534523024952'>
+                    <name>GET /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/element/0.08096507096130257-1/displayed</name>
+                    <title>GET /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/element/0.08096507096130257-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='0056c1ab-e027-450b-91aa-32c4bd75bd16-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523024960' status='passed' stop='1534523025084'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/element</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7799ebe0-d331-4f8d-b129-ba6ad505a66c-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='f3169c1b-23fc-4310-b941-273f23a5fdcc-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1534523025085' status='passed' stop='1534523025625'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/element/0.08096507096130257-2/click</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/element/0.08096507096130257-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='f548d67e-6ca7-43bb-81b9-24487f4f88ba-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1534523025631' status='broken' stop='1534523025850'>
+            <name>consider the number of cards</name>
+            <title>consider the number of cards</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","platform":"","version":"","maxInstances":"1"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\webdriverIO-with-mochaBDD-master\\test\\specs\\checking-cards.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1534523025633' status='passed' stop='1534523025764'>
+                    <name>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</name>
+                    <title>POST /wd/hub/session/bd500abcff5a9c67b4437679d39229c8/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='708740bf-db68-439b-ad64-51ca55424ded-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='8fde6aba-a39f-44cd-8735-3ae39e8b9323-attachment.json' type='application/json' size='2294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>client is not defined</message>
+                <stack-trace>ReferenceError: client is not defined
+                    at Context.&lt;anonymous> (C:/webdriverIO-with-mochaBDD-master/test/specs/checking-cards.js:19:30)
+                    at C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:590:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (C:\webdriverIO-with-mochaBDD-master\node_modules\core-js\library\modules\_export.js:36:28)
+                    at Context.executeSync (C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:588:12)
+                    at C:\webdriverIO-with-mochaBDD-master\node_modules\wdio-sync\build\index.js:759:42</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

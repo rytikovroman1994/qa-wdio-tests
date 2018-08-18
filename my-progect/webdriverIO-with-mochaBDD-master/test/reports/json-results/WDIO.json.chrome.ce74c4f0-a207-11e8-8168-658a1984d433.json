@@ -1,0 +1,1 @@
+{"start":"2018-08-17T10:25:01.265Z","end":"2018-08-17T10:25:04.693Z","capabilities":{"browserName":"chrome","platform":"","version":"","maxInstances":"5"},"host":"127.0.0.1","port":4444,"baseUrl":"https://vw.kodix.ru/","framework":"mocha","mochaOpts":{"timeout":90000,"ui":"bdd","compilers":["js:babel-register"]},"suites":[]}

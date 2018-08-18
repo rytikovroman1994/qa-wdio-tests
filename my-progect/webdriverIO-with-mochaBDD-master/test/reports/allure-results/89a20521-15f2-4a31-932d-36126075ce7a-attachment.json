@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": ".avn004_prompt__content  a:nth-child(2)"
+}
